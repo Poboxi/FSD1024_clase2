@@ -1,0 +1,53 @@
+/* Estilos básicos del contenedor */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas iguales */
+    grid-template-rows: 1fr 1fr 1fr; /* Tres filas iguales */
+    gap: 10px; /* Espacio de 10px entre filas y columnas */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Estilos para las áreas del grid */
+.header {
+    grid-column: 1 / 4; /* Ocupa las tres columnas */
+    background-color: #ffcccc; /* Color de fondo */
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.left {
+    background-color: #ccffcc;
+    text-align: center;
+    padding: 20px;
+}
+
+.center {
+    background-color: #ccccff;
+    text-align: center;
+    padding: 20px;
+}
+
+.right {
+    background-color: #ffffcc;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-left {
+    background-color: #ffccff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-center {
+    background-color: #ccffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-right {
+    background-color: #ffccee;
+    text-align: center;
+    padding: 20px;
+}
